@@ -1,0 +1,7 @@
+Contact: mailto:security@gregorylabsllc.com
+Expires: 2027-09-06T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://gregorylabsllc.com/.well-known/security.txt
+Policy: https://bugcrowd.com/gregorylabs
+Hiring: mailto:daniel@gregorylabsllc.com
+Acknowledgments: https://bugcrowd.com/gregorylabs
