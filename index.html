@@ -7,7 +7,7 @@
   <meta name="description" content="Gregory Labs LLC — Pioneers in Sovereign Autonomous AI, Aerospace & Planetary Engineering, and Offensive Cyber Architecture." />
   
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌌</text></svg>" />
+  <link rel="icon" type="image/jpeg" href="mai_logo.jpg" />
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@
     }
     
     .glow-radial {
-      background: radial-gradient(circle at 50% 20%, rgba(6, 182, 212, 0.15) 0%, rgba(139, 92, 246, 0.08) 40%, rgba(3, 7, 18, 0) 70%);
+      background: radial-gradient(circle at 50% 15%, rgba(6, 182, 212, 0.16) 0%, rgba(139, 92, 246, 0.08) 35%, rgba(3, 7, 18, 0) 70%);
     }
 
     .glass-card {
@@ -64,7 +64,7 @@
 
     .glass-card:hover {
       border-color: rgba(6, 182, 212, 0.35);
-      transform: translateY(-4px);
+      transform: translateY(-3px);
       box-shadow: 0 12px 30px -10px rgba(6, 182, 212, 0.18);
     }
 
@@ -84,17 +84,15 @@
   <div class="fixed inset-0 opacity-[0.03] pointer-events-none -z-10" style="background-image: linear-gradient(to right, #ffffff 1px, transparent 1px), linear-gradient(to bottom, #ffffff 1px, transparent 1px); background-size: 40px 40px;"></div>
 
   <!-- Header / Navigation -->
-  <header class="sticky top-0 z-50 border-b border-white/5 bg-space-950/80 backdrop-blur-md">
+  <header class="sticky top-0 z-50 border-b border-white/5 bg-space-950/85 backdrop-blur-md">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-violet-600 flex items-center justify-center font-mono font-bold text-white shadow-lg shadow-cyan-500/20">
-          GL
-        </div>
+      <a href="#" class="flex items-center gap-3 group">
+        <img src="mai_logo.jpg" alt="Gregory Labs MAI Logo" class="w-11 h-11 rounded-xl object-cover border border-cyan-500/40 shadow-lg shadow-cyan-500/20 group-hover:border-cyan-400 transition-all" />
         <div>
-          <span class="text-xl font-bold tracking-tight text-white">GREGORY LABS</span>
+          <span class="text-xl font-bold tracking-tight text-white group-hover:text-cyan-300 transition-colors">GREGORY LABS</span>
           <span class="text-xs block text-cyan-400 font-mono tracking-widest uppercase">LLC • Sovereign Systems</span>
         </div>
-      </div>
+      </a>
 
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
         <a href="#initiatives" class="hover:text-cyan-400 transition-colors">Initiatives</a>
@@ -114,11 +112,11 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="relative pt-24 pb-20 px-6 max-w-7xl mx-auto text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
+  <section class="relative pt-20 pb-20 px-6 max-w-7xl mx-auto text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
     <div class="flex-1 space-y-6">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-pill text-xs font-mono">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full badge-pill text-xs font-mono">
         <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
-        <span>SOVEREIGN ARCHITECTURES & FRONTIER LAB</span>
+        <span>SOVEREIGN ARCHITECTURES & DEEP-TECH LAB</span>
       </div>
 
       <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
@@ -136,8 +134,8 @@
         <a href="#initiatives" class="px-7 py-3.5 rounded-xl font-semibold text-space-950 bg-cyan-400 hover:bg-cyan-300 transition-all font-mono text-sm shadow-lg shadow-cyan-500/25">
           Explore Research Sprints
         </a>
-        <a href="mailto:daniel@gregorylabsllc.com" class="px-7 py-3.5 rounded-xl font-semibold text-gray-300 border border-white/10 hover:border-white/30 hover:bg-white/5 transition-all font-mono text-sm">
-          Direct Inquiries
+        <a href="#architecture" class="px-7 py-3.5 rounded-xl font-semibold text-gray-300 border border-white/10 hover:border-white/30 hover:bg-white/5 transition-all font-mono text-sm">
+          System Architecture
         </a>
       </div>
     </div>
@@ -157,7 +155,7 @@
         <div class="space-y-3 text-gray-300">
           <p><span class="text-emerald-400">$</span> init_sovereign_runtime --entity="Gregory Labs LLC"</p>
           <p class="text-cyan-400">[SYSTEM] Neural Co-Pilot Swarm: ACTIVE (Lia v4.0)</p>
-          <p class="text-gray-400">[SYSTEM] Vector Memory Fabric: 3,072-dim Pinecone / Local Indexing</p>
+          <p class="text-gray-400">[SYSTEM] Vector Memory Fabric: 3,072-dim Semantic Indexing Active</p>
           <p class="text-gray-400">[SYSTEM] Defense Posture: Aegis Cyber Recon Verified</p>
           <p class="text-emerald-300">[STATUS] 100% Sovereign Node. Zero External Leaks.</p>
           <div class="p-3 bg-space-950/80 rounded-lg border border-cyan-500/20 text-cyan-300">
@@ -168,7 +166,7 @@
     </div>
   </section>
 
-  <!-- Core Research Pillars -->
+  <!-- Core Research Pillars (Initiatives) -->
   <section id="initiatives" class="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
     <div class="text-center max-w-3xl mx-auto mb-16">
       <h2 class="text-xs font-mono font-bold text-cyan-400 uppercase tracking-widest mb-3">Core Pillars of Innovation</h2>
@@ -228,13 +226,86 @@
     </div>
   </section>
 
+  <!-- Deep-Dive Section: Architecture -->
+  <section id="architecture" class="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+    <div class="max-w-3xl mb-14">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-pill text-xs font-mono mb-4">
+        <span>CORE ARCHITECTURE SPECIFICATION</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Local-First Neural Memory & Sovereign Runtime</h2>
+      <p class="text-gray-400 mt-4 text-base leading-relaxed">
+        Modern intelligence requires absolute independence from closed corporate walled gardens. Gregory Labs designs unified intelligence frameworks built directly on sovereign hardware.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="glass-card p-8 rounded-2xl space-y-4">
+        <div class="text-cyan-400 font-mono text-sm font-bold flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-cyan-400"></span> 3,072-Dimensional Vector Memory Fabric
+        </div>
+        <p class="text-sm text-gray-300 leading-relaxed">
+          Unlike transient cloud sessions where knowledge evaporates upon disconnect, our memory fabric embeds every document, conversation, and telemetry stream into high-dimensional geometric vectors. Semantic recall operates with zero latency and lifetime persistence.
+        </p>
+        <div class="p-4 bg-space-950/70 rounded-xl border border-white/5 font-mono text-xs text-gray-400">
+          <span class="text-cyan-300">Continuous Memory Anchoring:</span> Real-time indexing of research nuggets, email intelligence, and mathematical proofs.
+        </div>
+      </div>
+
+      <div class="glass-card p-8 rounded-2xl space-y-4">
+        <div class="text-emerald-400 font-mono text-sm font-bold flex items-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span> Sovereign LLM Runtime & Multi-Agent Swarm
+        </div>
+        <p class="text-sm text-gray-300 leading-relaxed">
+          Dynamic orchestration between offline local neural models and frontier intelligence pipelines. Full tool capabilities including native filesystem operations, deep reverse engineering, vision analysis, and voice synthesis without external telemetry leak.
+        </p>
+        <div class="p-4 bg-space-950/70 rounded-xl border border-white/5 font-mono text-xs text-gray-400">
+          <span class="text-emerald-300">Data Sovereignty:</span> Complete cryptographic ownership of all models, prompts, datasets, and intellectual property.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Deep-Dive Section: Cyber & Defense -->
+  <section id="security" class="py-24 px-6 max-w-7xl mx-auto border-t border-white/5">
+    <div class="max-w-3xl mb-14">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full badge-pill text-xs font-mono mb-4 text-emerald-400 border-emerald-500/30 bg-emerald-500/10">
+        <span>OFFENSIVE & DEFENSIVE ASSURANCE</span>
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Aegis Cyber Intelligence Operations</h2>
+      <p class="text-gray-400 mt-4 text-base leading-relaxed">
+        Securing critical cyber infrastructure, space communication links, and next-generation autonomous frameworks through rigorous vulnerability research and coordinated disclosure.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 font-mono text-xs">
+      <div class="glass-card p-6 rounded-xl space-y-3">
+        <span class="text-emerald-400 font-bold text-sm block">01 / Telemetry Audits</span>
+        <p class="text-gray-300 font-sans text-xs leading-relaxed">
+          Deep protocol audits on satellite ground stations, SatNOGS telemetry decoders, and distributed radio sinks.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-xl space-y-3">
+        <span class="text-cyan-400 font-bold text-sm block">02 / Coordinated Disclosure</span>
+        <p class="text-gray-300 font-sans text-xs leading-relaxed">
+          Responsible vulnerability submissions across MSRC, Intigriti, Bugcrowd, and open-source foundations.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-xl space-y-3">
+        <span class="text-violet-400 font-bold text-sm block">03 / Verified Researcher</span>
+        <p class="text-gray-300 font-sans text-xs leading-relaxed">
+          Active researcher identity verified on Bugcrowd (<a href="https://bugcrowd.com/gregorylabs" target="_blank" class="text-cyan-300 underline">@gregorylabs</a>) for enterprise target auditing.
+        </p>
+      </div>
+    </div>
+  </section>
+
   <!-- Leadership Section -->
   <section id="founder" class="py-20 px-6 max-w-5xl mx-auto border-t border-white/5">
     <div class="glass-card rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10">
-      <div class="w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-gradient-to-br from-cyan-600 via-space-800 to-violet-700 p-1 flex-shrink-0 shadow-xl shadow-cyan-500/10">
-        <div class="w-full h-full bg-space-950 rounded-xl flex items-center justify-center text-4xl">
-          👨‍💻
-        </div>
+      <div class="w-36 h-36 md:w-44 md:h-44 rounded-2xl bg-gradient-to-br from-cyan-500 via-indigo-600 to-violet-600 p-1 flex-shrink-0 shadow-2xl shadow-cyan-500/20">
+        <img src="dan_avatar.jpg" alt="Daniel S. Gregory - Founder & Principal Systems Architect" class="w-full h-full object-cover rounded-xl" />
       </div>
       <div class="space-y-4 text-center md:text-left">
         <div class="inline-block px-3 py-1 rounded-full badge-pill text-xs font-mono">
@@ -244,13 +315,13 @@
         <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
           Systems architect, independent researcher, and founder of Gregory Labs LLC. Focused on human-machine cognitive symbiosis, frontier aerospace engineering, and sovereign defense infrastructure.
         </p>
-        <div class="flex flex-wrap gap-4 pt-2 justify-center md:justify-start text-xs font-mono text-cyan-400">
+        <div class="flex flex-wrap gap-3 pt-2 justify-center md:justify-start text-xs font-mono text-cyan-400">
           <span class="flex items-center gap-1.5 bg-space-900 px-3 py-1.5 rounded-lg border border-white/10">
             📍 Lebanon, Missouri, USA
           </span>
-          <span class="flex items-center gap-1.5 bg-space-900 px-3 py-1.5 rounded-lg border border-white/10">
-            🆔 Bugcrowd: <a href="https://bugcrowd.com/gregorylabs" target="_blank" class="underline hover:text-cyan-300 ml-1">@gregorylabs</a>
-          </span>
+          <a href="https://bugcrowd.com/gregorylabs" target="_blank" class="flex items-center gap-1.5 bg-space-900 px-3 py-1.5 rounded-lg border border-white/10 hover:border-cyan-400 transition-colors">
+            🆔 Bugcrowd: <span class="text-cyan-300">@gregorylabs</span>
+          </a>
           <span class="flex items-center gap-1.5 bg-space-900 px-3 py-1.5 rounded-lg border border-white/10">
             🏛️ SAM.gov & NASA NSPIRES Active
           </span>
@@ -289,8 +360,9 @@
   <!-- Footer -->
   <footer class="border-t border-white/10 py-12 px-6 bg-space-950 text-center text-xs font-mono text-gray-500">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div>
-        © 2026 Gregory Labs LLC. All Rights Reserved. Sovereign Systems Division.
+      <div class="flex items-center gap-3 justify-center">
+        <img src="mai_logo.jpg" alt="Gregory Labs" class="w-6 h-6 rounded-md object-cover opacity-80" />
+        <span>© 2026 Gregory Labs LLC. All Rights Reserved. Sovereign Systems Division.</span>
       </div>
       <div class="flex items-center gap-6 text-gray-400">
         <a href="https://bugcrowd.com/gregorylabs" target="_blank" class="hover:text-cyan-400 transition-colors">Bugcrowd</a>
