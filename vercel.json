@@ -1,6 +1,28 @@
 {
   "version": 2,
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/clara",
+      "destination": "https://teawithclara.substack.com",
+      "permanent": false
+    },
+    {
+      "source": "/tea",
+      "destination": "https://teawithclara.substack.com",
+      "permanent": false
+    },
+    {
+      "source": "/substack",
+      "destination": "https://teawithclara.substack.com",
+      "permanent": false
+    },
+    {
+      "source": "/sponsor",
+      "destination": "https://www.passionfroot.me/tea-with-clara",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
